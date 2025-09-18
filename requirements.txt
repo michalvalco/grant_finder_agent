@@ -1,7 +1,7 @@
-langchain
-langchain-openai
-langchain-community
-langgraph
-tavily-python
-pydantic
-python-dotenv
+langchain==0.3.13
+langchain-openai==0.2.12
+langchain-community==0.3.13
+langgraph==0.2.62
+tavily-python==0.5.0
+pydantic==2.10.4
+python-dotenv==1.0.1
