@@ -1,6 +1,7 @@
 # src/main.py
 import sys
 import os
+os.environ['PYTHONIOENCODING'] = 'utf-8'
 import logging
 
 # Pridanie koreňového adresára do PYTHONPATH pre správne importy
