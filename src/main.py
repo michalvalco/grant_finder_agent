@@ -1,7 +1,9 @@
 # src/main.py
-import sys
 import os
+import sys
+# Force UTF-8 encoding for Windows
 os.environ['PYTHONIOENCODING'] = 'utf-8'
+sys.stdout.reconfigure(encoding='utf-8')
 import logging
 
 # Pridanie koreňového adresára do PYTHONPATH pre správne importy
