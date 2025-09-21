@@ -48,6 +48,8 @@ def node_query_optimizer(state: GrantFinderState) -> dict:
     2. Pre SK používaj slovenčinu a zahrň kľúčové inštitúcie (napr. APVV, VEGA, KEGA).
     3. Pre EÚ/Globálne používaj angličtinu a zahrň programy (napr. Horizon Europe, ERC grants).
     4. Zameraj sa na aktuálne alebo budúce výzvy (použi roky {current_year}/{next_year}).
+    5. Zahrň akademicky-špecifické pojmy: "faculty grants", "research fellowships", "postdoc opportunities"
+    6. Zahrň aj tieto typy funding: "seed grants", "collaborative projects", "conference funding"
     
     Odpovedz presne podľa definovanej Pydantic schémy (OptimizedQueries).
     """
