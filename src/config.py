@@ -11,7 +11,7 @@ load_dotenv()
 # Konštanty
 LLM_MODEL = "gpt-4o"
 LLM_TEMPERATURE = 0
-TAVILY_MAX_RESULTS = 6
+TAVILY_MAX_RESULTS = 10
 
 def get_llm() -> ChatOpenAI:
     """Vráti nakonfigurovanú inštanciu ChatOpenAI LLM."""
